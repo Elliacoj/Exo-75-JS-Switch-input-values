@@ -5,7 +5,6 @@ let switcher = function() {
     let switch2 = input2.value;
     input1.value = switch2;
     input2.value = switch1;
-
 }
 
 document.getElementById("switch").addEventListener("click", switcher);
